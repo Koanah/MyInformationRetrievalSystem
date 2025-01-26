@@ -18,14 +18,14 @@ pip install wikipedia-api
 pip install nltk
 pip install scikit-learn
 
-Usage
+## Usage
 
 1. Query Wikipedia: Input a query, and the system retrieves relevant articles from Wikipedia.
 2. Text Preprocessing: The system applies preprocessing techniques like tokenization, stemming, and stopword removal to clean the retrieved articles.
 3. Document Ranking: The system ranks the documents using the TF-IDF vector space model and returns the most relevant articles.
 4. Evaluation: The system calculates precision and recall for predefined queries to evaluate the effectiveness of the retrieval process.
 
-Evaluation
+## Evaluation
 
 The system evaluates queries for their precision and recall by comparing the retrieved documents with a predefined set of relevant documents. Some of the sample queries evaluated include:
 
@@ -36,12 +36,12 @@ Information Retrieval
 Deep Learning
 The system calculates precision and recall for each query and outputs the average values for the entire evaluation set.
 
-Contributing
+## Contributing
 
 I welcome contributions to improve the system. If you'd like to contribute, please fork the repository, create a new branch, and submit a pull request. Make sure to update the documentation as necessary.
 
 
-Acknowledgments
+## Acknowledgments
 
 Wikipedia API for retrieving articles.
 NLTK for natural language processing and text cleaning.
